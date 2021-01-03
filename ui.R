@@ -29,7 +29,6 @@ ui <- fluidPage(theme = shinytheme("slate"),
                   tags$label(h3('Peluang Covid')), # Status/Output Text Box
                   verbatimTextOutput('contents'),
                   tableOutput('tabledata'), # Prediction results table
-                  tags$label(h3('Panduan')),
                   tags$label(h4('Apabila hasil peluang positif covid19 lebih dari 50% maka disarankan untuk swab test '))
                 )
 )
